@@ -92,7 +92,11 @@ export default function Navbar({ theme, toggleTheme }) {
           <a
             href={profile.resumeFile}
             download
+<<<<<<< HEAD
             className="flex items-center gap-2 font-mono text-[13px] px-4 py-2 rounded-full btn-primary text-white transition"
+=======
+            className="flex items-center gap-2 font-mono text-[13px] px-4 py-2 rounded-full bg-[var(--color-coral)] text-white hover:brightness-110 transition"
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
           >
             <FiDownload size={14} /> Resume
           </a>
@@ -135,4 +139,8 @@ export default function Navbar({ theme, toggleTheme }) {
       )}
     </header>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)

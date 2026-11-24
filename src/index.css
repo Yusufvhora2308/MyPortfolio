@@ -17,10 +17,13 @@
   --color-amber: #ffb454;
   --color-mist: #8b97b5;
   --color-fog: #eaeffb;
+<<<<<<< HEAD
 
   --shadow-card: 0 1px 2px rgba(6, 10, 20, 0.04), 0 8px 24px -8px rgba(6, 10, 20, 0.35);
   --shadow-card-hover: 0 4px 10px rgba(6, 10, 20, 0.08), 0 20px 40px -12px rgba(255, 90, 69, 0.18);
   --shadow-glow: 0 0 0 1px rgba(255, 90, 69, 0.15), 0 0 32px rgba(255, 90, 69, 0.16);
+=======
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
 }
 
 :root {
@@ -52,6 +55,7 @@ html {
 body {
   font-family: var(--font-body);
   background-color: var(--bg-page);
+<<<<<<< HEAD
   background-image: radial-gradient(ellipse 900px 500px at 15% -10%, rgba(255, 90, 69, 0.08), transparent 60%),
     radial-gradient(ellipse 700px 500px at 100% 10%, rgba(255, 180, 84, 0.06), transparent 55%);
   background-repeat: no-repeat;
@@ -63,6 +67,10 @@ body {
 ::selection {
   background-color: var(--color-coral);
   color: #ffffff;
+=======
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
 }
 
 /* ---------- Utility layer ---------- */
@@ -87,6 +95,7 @@ body {
   .card-surface {
     background-color: var(--bg-panel);
     border: 1px solid var(--line);
+<<<<<<< HEAD
     box-shadow: var(--shadow-card);
     transition: box-shadow 0.35s ease, border-color 0.35s ease, transform 0.35s ease;
   }
@@ -119,6 +128,8 @@ body {
   }
   .btn-primary:active {
     transform: translateY(0px);
+=======
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
   }
 }
 

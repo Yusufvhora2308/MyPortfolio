@@ -13,6 +13,13 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8 grid lg:grid-cols-[1.15fr_0.85fr] gap-14 items-center relative">
         {/* Left: copy */}
         <div>
+<<<<<<< HEAD
+=======
+          <p className="font-mono text-[13px] text-[var(--color-coral)] mb-5">
+             <span className="text-[var(--text-muted)]">Available For Opportunities</span>
+          </p>
+
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
           <h1 className="font-display font-semibold text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.08] tracking-tight text-[var(--text-primary)]">
             {profile.name}
           </h1>
@@ -28,7 +35,11 @@ export default function Hero() {
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
               href="#projects"
+<<<<<<< HEAD
               className="px-6 py-3 rounded-full btn-primary text-white font-mono text-[13px] transition"
+=======
+              className="px-6 py-3 rounded-full bg-[var(--color-coral)] text-white font-mono text-[13px] hover:brightness-110 transition"
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
             >
               View Projects
             </a>
@@ -78,6 +89,11 @@ export default function Hero() {
                 className="w-full aspect-[4/5] object-cover"
               />
             </div>
+<<<<<<< HEAD
+=======
+
+       
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
           </div>
         </div>
       </div>

@@ -10,7 +10,11 @@ export default function Education() {
           <SectionHeading index="07" label="education" title="Academic background" />
           <div className="space-y-5">
             {education.map((edu) => (
+<<<<<<< HEAD
               <div key={edu.degree} className="reveal card-surface card-lift rounded-2xl p-6 relative">
+=======
+              <div key={edu.degree} className="reveal card-surface rounded-2xl p-6 relative">
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
                 {edu.status === "current" && (
                   <span className="absolute top-6 right-6 font-mono text-[10px] px-2.5 py-1 rounded-full bg-[var(--color-coral)]/10 text-[var(--color-coral)]">
                     in progress
@@ -30,7 +34,11 @@ export default function Education() {
             {certificates.map((cert, i) => (
               <div
                 key={cert.title}
+<<<<<<< HEAD
                 className="reveal card-surface card-lift rounded-2xl p-5 flex items-start gap-3 hover:border-[var(--color-coral)] transition-colors"
+=======
+                className="reveal card-surface rounded-2xl p-5 flex items-start gap-3 hover:border-[var(--color-coral)] transition-colors"
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
                 style={{ transitionDelay: `${i * 60}ms` }}
               >
                 <div className="w-9 h-9 rounded-lg flex items-center justify-center bg-[var(--color-amber)]/10 text-[var(--color-amber)] shrink-0">

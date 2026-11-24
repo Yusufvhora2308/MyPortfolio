@@ -35,7 +35,11 @@ export default function Projects() {
           {visible.map((project, i) => (
             <article
               key={project.title}
+<<<<<<< HEAD
               className="reveal group card-surface card-lift rounded-2xl overflow-hidden flex flex-col hover:border-[var(--color-coral)] transition-colors"
+=======
+              className="reveal group card-surface rounded-2xl overflow-hidden flex flex-col hover:border-[var(--color-coral)] transition-colors"
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
               style={{ transitionDelay: `${(i % 3) * 70}ms` }}
             >
               {/* mock browser-window preview */}

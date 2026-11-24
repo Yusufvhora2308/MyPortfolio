@@ -7,9 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
+<<<<<<< HEAD
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+=======
+    "preview": "vite preview"
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
@@ -24,7 +28,10 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.4",
     "autoprefixer": "^10.5.4",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
+=======
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
     "oxlint": "^1.75.0",
     "postcss": "^8.5.25",
     "tailwindcss": "^4.3.3",

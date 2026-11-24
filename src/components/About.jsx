@@ -15,7 +15,11 @@ export default function About() {
         <SectionHeading index="01" label="about" title="A developer who reads the schema before writing the query" />
 
         <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-12 items-start">
+<<<<<<< HEAD
           <div className="reveal card-surface card-lift rounded-2xl p-7">
+=======
+          <div className="reveal card-surface rounded-2xl p-7">
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
             <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-muted)" }}>
               {profile.about}
             </p>
@@ -29,7 +33,11 @@ export default function About() {
             {points.map(({ icon: Icon, title, text }, i) => (
               <div
                 key={title}
+<<<<<<< HEAD
                 className="reveal card-surface card-lift rounded-2xl p-6 hover:border-[var(--color-coral)] transition-colors"
+=======
+                className="reveal card-surface rounded-2xl p-6 hover:border-[var(--color-coral)] transition-colors"
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
                 style={{ transitionDelay: `${i * 60}ms` }}
               >
                 <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-[var(--color-coral)]/10 text-[var(--color-coral)] mb-4">

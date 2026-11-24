@@ -76,6 +76,7 @@ git push -u origin main
 2. Build command: `npm run build`. Publish directory: `dist`.
 3. Deploy.
 
+<<<<<<< HEAD
 **GitHub Pages** (already configured in this project)
 ```bash
 npm run deploy
@@ -83,6 +84,21 @@ npm run deploy
 This builds the site and pushes it to a `gh-pages` branch automatically. Then in your GitHub repo → Settings → Pages, set Source to "Deploy from a branch" → `gh-pages` → `/ (root)`.
 
 Note: `vite.config.js` already has `base: '/Portfolio/'` set for this repo name. If you rename the repo, update that value to match.
+=======
+**GitHub Pages** (alternative)
+```bash
+npm install -D gh-pages
+```
+Add to `package.json`:
+```json
+"homepage": "https://Yusufvhora2308.github.io/YOUR_REPO_NAME",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+```
+Then run `npm run deploy`. Also set `base: '/YOUR_REPO_NAME/'` in `vite.config.js`.
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
 
 ## Project structure
 ```

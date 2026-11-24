@@ -28,7 +28,11 @@ export default function Skills() {
         <SectionHeading index="02" label="skills" title="The stack I ship with" />
 
         <div className="grid lg:grid-cols-3 gap-6">
+<<<<<<< HEAD
           <div className="reveal card-surface card-lift rounded-2xl p-7">
+=======
+          <div className="reveal card-surface rounded-2xl p-7">
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
             <div className="flex items-center gap-2.5 mb-6">
               <FiTerminal className="text-[var(--color-coral)]" size={18} />
               <h3 className="font-display font-semibold text-[var(--text-primary)]">Languages</h3>
@@ -40,7 +44,11 @@ export default function Skills() {
             </div>
           </div>
 
+<<<<<<< HEAD
           <div className="reveal card-surface card-lift rounded-2xl p-7" style={{ transitionDelay: "80ms" }}>
+=======
+          <div className="reveal card-surface rounded-2xl p-7" style={{ transitionDelay: "80ms" }}>
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
             <div className="flex items-center gap-2.5 mb-6">
               <FiLayers className="text-[var(--color-coral)]" size={18} />
               <h3 className="font-display font-semibold text-[var(--text-primary)]">Frameworks</h3>
@@ -52,7 +60,11 @@ export default function Skills() {
             </div>
           </div>
 
+<<<<<<< HEAD
           <div className="reveal card-surface card-lift rounded-2xl p-7" style={{ transitionDelay: "160ms" }}>
+=======
+          <div className="reveal card-surface rounded-2xl p-7" style={{ transitionDelay: "160ms" }}>
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
             <div className="flex items-center gap-2.5 mb-6">
               <FiTool className="text-[var(--color-coral)]" size={18} />
               <h3 className="font-display font-semibold text-[var(--text-primary)]">Tools</h3>

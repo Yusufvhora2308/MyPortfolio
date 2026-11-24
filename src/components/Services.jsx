@@ -16,7 +16,11 @@ export default function Services() {
             return (
               <div
                 key={service.title}
+<<<<<<< HEAD
                 className="reveal card-surface card-lift rounded-2xl p-6 hover:border-[var(--color-coral)] transition-all"
+=======
+                className="reveal card-surface rounded-2xl p-6 hover:-translate-y-1 hover:border-[var(--color-coral)] transition-all"
+>>>>>>> 7647192 (Add QuickFix and LifeSync projects, remove School Management System)
                 style={{ transitionDelay: `${(i % 3) * 60}ms` }}
               >
                 <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-[var(--color-coral)]/10 text-[var(--color-coral)] mb-4">
